@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(70, 70, 70);
+}
+h1 {
+    color: yellow;
+    font-size: 25px;
+}
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.area-externa {
+    padding: 10px;
+    color:yellow;
+    font-weight: 400px;
+    display: block; 
+    background: rgb(117, 117, 253);
+}
+.area-interna {
+    padding: 10px;
+    gap: 50px;
+    display: flex;
+    
+    text-align: center;
+}
+#resultado {
+    color: black;
+    font-size: 35px;
+}

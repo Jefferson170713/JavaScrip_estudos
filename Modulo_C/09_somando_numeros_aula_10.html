@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style_03.css">
+
+    <title>Somando números</title>
+</head>
+<body>
+    <head>
+        <h1>Somando números</h1>
+        <p>Estou ultilizando html e Css3</p>
+    </head>
+    <main>
+        <div class="area-externa">
+            <h2>Digite os dois núemros para serem somados: </h2>
+            <div class="area-interna">
+                <input type="text" name="valor1" id="valor1">
+                <input type="text" name="valor2" id="valor2">
+                <button type="button"  value="somar" onclick="somar()" >Somar</button>
+            </div>
+
+            <div id="resultado">
+                resultado
+            </div>
+
+        </div>
+        <script>
+            var num1 = window.document.getElementById('valor1')
+            var num2 = window.document.querySelector('input#valor2')
+            
+            function somar() {
+                    var n1 = Number(num1.value)
+                    var n2 = Number(num2.value)
+                    var valor = window.document.getElementById('resultado')
+
+                    var soma = n1 + n2
+
+                    valor.innerText = `A soma entre ${n1} + ${n2} é igual : [ ${soma} ]`
+                    
+            }
+
+        </script>
+    </main>
+    
+</body>
+</html>

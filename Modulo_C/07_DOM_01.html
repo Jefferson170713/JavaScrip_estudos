@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style_01.css">
+
+    <title>Usando DOM Jefferson</title>
+
+    
+</head>
+<body>
+    <header>
+        <h1>Iniciando com <strong>DOM</strong> em <strong>JavaScript</strong></h1>
+        <p>Aqui vai o resultado</p>
+    </header>
+    <main>
+        <h2>O que é <strong>DOM</strong>?</h2>
+        <p><strong>D</strong> -> Document, <strong>O</strong> -> Object, <strong>M</strong> -> Model</p>
+        <div>Clique em mim.</div>
+        <div class="borda-div">
+            <script>
+                window.document.write(window.document.URL)
+                //window.document.write(window.document)
+            </script>
+            <br>
+            <script>
+                var p1 = window.document.getElementsByTagName('p')[0]
+                window.document.write('O que está escrito é: ' + p1.innerText)
+            </script>
+        </div>
+    </main>
+</body>
+</html>

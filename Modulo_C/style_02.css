@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    color: yellow;
+}
+p {
+    color: yellowgreen;
+}
+strong {
+    color: white;
+    font-size: 35px;
+}
+#area {
+    color: rgb(58, 238, 58);
+    background: rgb(77, 75, 75);
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
